@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="d1d04ac6-f761-42a2-b3d2-6d576443eeea" Publisher="CN=Ascii" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Beans</DisplayName>
+    <PublisherDisplayName>Ascii</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Beans.App">
+      <VisualElements DisplayName="Beans" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Beans" ForegroundText="light" BackgroundColor="#FFD40F">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#FFD40F" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
